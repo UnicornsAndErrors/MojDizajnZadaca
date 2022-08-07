@@ -1,38 +1,68 @@
-.App {
+
+.Home{
+    text-align: center;
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-size: 5rem;
+    background-image: url("./images/slika1.png");
+    height: 110vh;
+
+   
+   
+}
+
+.MolimTeRadi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+ }
+
+ .photo{
+    width: 10rem;
+    margin-top: 7rem;
+ }
+
+ 
+ 
+
+.Apod{
+
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  min-height: 100vh;
+  background: conic-gradient(from 90deg at 50% 0%, #111, 50%, #222, #111);
+  color: rgb(250, 229, 37);
 }
 
-.App-link {
-  color: #61dafb;
+
+
+p{
+    margin: 0 20rem;
+    font-size: small;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a{
+    text-decoration: none;
+    color: rgb(250, 229, 37);
+   
+    
+    
 }
+
+.home{
+    padding-right: 95rem;
+}
+
+a:hover{
+    color:red;
+}
+
+img{
+  width: 30%
+
+} 
+
