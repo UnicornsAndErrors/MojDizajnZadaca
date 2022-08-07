@@ -14,7 +14,7 @@ const NasaFotka = () => {
         
       };
 
-      if(!slikaData) return <div/>;
+     
     
       return (
         <div className="Apod">
